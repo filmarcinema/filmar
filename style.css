@@ -90,4 +90,8 @@ body {
         grid-template-columns: 1fr;
     }
 }
+.logo img {
+    height: 50px;
+}
+
 
