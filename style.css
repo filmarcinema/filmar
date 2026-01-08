@@ -118,13 +118,13 @@ body {
     10% { opacity: 1; }
     30% { opacity: 1; }
     40% { opacity: 0; }
+
+.hero-video {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
 }
-body {
-    background: red !important;
-}
-html {
-    filter: hue-rotate(180deg);
-}
+
 
 
 
