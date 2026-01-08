@@ -55,6 +55,7 @@ body {
     text-align: center;
     padding: 20px;
     background: #4b0f1b;
+    position: relative;
 }
 
 /* ===== Мобилна версия ===== */
@@ -225,6 +226,21 @@ body {
         transparent
     );
 }
+.footer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(
+        to right,
+        transparent,
+        #f5c542,
+        transparent
+    );
+}
+
 
 
 
