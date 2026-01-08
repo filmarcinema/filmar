@@ -119,11 +119,42 @@ body {
     30% { opacity: 1; }
     40% { opacity: 0; }
 }
-.hero-video {
+.hero-video.banner {
     position: relative;
-    height: 100vh;
+    height: 65vh;          /* <-- контролира височината */
+    width: 100%;
     overflow: hidden;
 }
+
+.hero-video.banner video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;     /* <-- запълва по широчина */
+}
+
+.hero-video.banner .hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.45);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   /* <-- центриране */
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+}
+
+.hero-video.banner h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero-video.banner p {
+    font-size: 1.2rem;
+}
+
+
 
 
 
