@@ -91,7 +91,8 @@ body {
     }
 }
 .logo img {
-    height: 80px;
+    height: 80px;       
+    width: auto;
 }
 .hero-slider {
     position: relative;
@@ -153,6 +154,7 @@ body {
 .hero-video.banner p {
     font-size: 1.2rem;
 }
+
 
 
 
