@@ -8,11 +8,13 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 20px 40px;
+    align-items: center;
+    padding: 15px 40px;
     background: rgba(0,0,0,0.85);
     position: fixed;
     top: 0;
     width: 100%;
+    box-sizing: border-box;   
     z-index: 10;
 }
 
@@ -154,6 +156,7 @@ body {
 .hero-video.banner p {
     font-size: 1.2rem;
 }
+
 
 
 
