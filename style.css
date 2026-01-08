@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: #4b0f1b;
+    background: #2e0a12;
     color: #ffffff;
 }
 
@@ -46,7 +46,7 @@ body {
 }
 
 .movie {
-    background: #2e0a12;
+    background: #4b0f1b;
     padding: 20px;
     border-radius: 10px;
 }
@@ -211,6 +211,7 @@ body {
 .instagram-link:hover {
     color: #ffffff;
 }
+
 
 
 
