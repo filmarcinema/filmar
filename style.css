@@ -19,11 +19,35 @@ body {
 }
 
 .menu a {
+    position: relative;
     margin-left: 20px;
     text-decoration: none;
-    color: #f5c542;
+    color: #f5c542;                 
     font-weight: bold;
+    padding-bottom: 6px;
 }
+
+.menu a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #f5c542;
+    transition: width 0.3s ease;
+}
+
+.menu a:hover::after {
+    width: 100%;
+}
+
+.menu a:hover,
+.menu a:active,
+.menu a:focus {
+    color: #f5c542;
+}
+
 
 .hero {
     height: 100vh;
@@ -240,6 +264,7 @@ body {
         transparent
     );
 }
+
 
 
 
