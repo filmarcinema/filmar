@@ -119,6 +119,10 @@ body {
     30% { opacity: 1; }
     40% { opacity: 0; }
 }
+body {
+    background: red !important;
+}
+
 
 
 
