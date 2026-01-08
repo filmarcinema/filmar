@@ -267,6 +267,12 @@ body {
 h1, h2, h3, h4 {
     color: #f5c542;   
 }
+.about p {
+    text-align: justify;
+    line-height: 1.8;
+    font-size: 1.05rem;
+}
+
 
 
 
