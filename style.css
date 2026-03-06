@@ -59,7 +59,7 @@ body {
     text-align: center;
 }
 
-.movies, .about, .contact {
+.movies, .coming-soon, .about, .contact {
     padding: 100px 40px;
 }
 
@@ -272,6 +272,7 @@ h1, h2, h3, h4 {
     line-height: 1.8;
     font-size: 1.05rem;
 }
+
 
 
 
